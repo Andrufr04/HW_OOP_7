@@ -8,12 +8,13 @@ int main()
 	Point3D a(1, 2, 3);
 	Point3D b(4, 5, 6);
 
-	cout << "Count: " << Point3D::GetCount() << endl;
+	{
 	Point3D c(1, 2, 3);
 	Point3D d(4, 5, 6);
 	Point3D e(4, 5, 6);
 	cout << "Count: " << Point3D::GetCount() << endl;
-
+	}
+	cout << "Count: " << Point3D::GetCount() << endl;
 
 	/*Point3D c = a.Sum(b);
 	c.Show();
